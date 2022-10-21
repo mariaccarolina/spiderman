@@ -1,0 +1,43 @@
+nav {
+  background-color: #000000bb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  padding: 1em;
+}
+
+nav img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+nav .foto {
+  border-radius: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  padding: 1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background-color: #ffffff55;
+}
+
+@media (max-width: 500px) {
+  nav img {
+    display: none;
+  }
+}
